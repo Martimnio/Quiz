@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion"; // Biblioteca para animações
 import {characters} from "@/app/characters";
+let characterIndex = 0
 
 const BibleCard = () => {
   const [currentCharacter, setCurrentCharacter] = useState(characters[0]);
@@ -8,8 +9,13 @@ const BibleCard = () => {
 
   // Função para trocar para um personagem aleatório
   const nextCharacter = () => {
-    const randomIndex = Math.floor(Math.random() * characters.length);
-    setCurrentCharacter(characters[randomIndex]);
+    characterIndex++;
+    setCurrentCharacter(characters[characterIndex]);
+  };
+
+  const previousCharacter = () => {
+    characterIndex--;
+    setCurrentCharacter(characters[characterIndex]);
   };
 
   return (
@@ -43,6 +49,12 @@ const BibleCard = () => {
       
       </motion.div>
 
+      <button
+        onClick={previousCharacter}
+        className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+      >
+        Card Anterior
+      </button>
       <button
         onClick={nextCharacter}
         className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"

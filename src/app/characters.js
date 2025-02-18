@@ -16,7 +16,7 @@ export const characters = [
   },
   {
     name: "Pedro",
-    image: "",
+    image: "https://cms-imgp.jw-cdn.org/img/p/1102013267/univ/art/1102013267_univ_lsr_lg.jpg",
     hints: [
       "Paguei um imposto com uma moeda tirada de um peixe que eu pesquei.",
       "Tive uma visão de um lençol cheio de animais, mudando meu entendimento sobre um assunto importante.",
@@ -32,7 +32,7 @@ export const characters = [
 
 {
     name: "José do Egito",
-    image: "",
+    image: "https://cms-imgp.jw-cdn.org/img/p/2015327/univ/art/2015327_univ_lsr_lg.jpg",
     hints: [
       "Um dos meus nomes era Zafenate-Paneia.",
       "Sonhei que a Lua e o Sol se curvavam perante uma estrela.",
@@ -48,7 +48,7 @@ export const characters = [
 
 {
     name: "Miriã",
-    image: "",
+    image: "https://cms-imgp.jw-cdn.org/img/p/501500100/univ/wpub/501500100_univ_lsr_lg.jpg",
     hints: [
       "Meu nome junto com os dos meus irmãos é mencionado no livro de Miqueias.",
       "Sou a primeira mulher chamada de profetisa na Bíblia.",
