@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion } from "framer-motion"; // Biblioteca para animações
+import { motion } from "framer-motion"; 
 import {characters} from "@/app/characters";
 let characterIndex = 0
 
@@ -7,7 +7,6 @@ const BibleCard = () => {
   const [currentCharacter, setCurrentCharacter] = useState(characters[0]);
   
 
-  // Função para trocar para um personagem aleatório
   const nextCharacter = () => {
     if(characterIndex == characters.length-1){
       characterIndex = 0

@@ -17,10 +17,17 @@ const QualEOTEXTO = () => {
     }
   };
 
+  
   const nextQuestion = () => {
     setSelectedOption(null);
     setFeedback("");
     setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
+  };
+
+  const previousQuestion = () => {
+    setSelectedOption(null);
+    setFeedback("");
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + texts.length) % texts.length);
   };
 
   return (
@@ -47,6 +54,12 @@ const QualEOTEXTO = () => {
           ))}
         </div>
         {feedback && <p className="mt-4 text-lg font-bold">{feedback}</p>}
+        <button
+          onClick={previousQuestion}
+          className="mt-6 px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+        >
+          Pergunta anterior
+        </button>
         <button
           onClick={nextQuestion}
           className="mt-6 px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
