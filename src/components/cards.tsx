@@ -9,13 +9,27 @@ const BibleCard = () => {
 
   // Função para trocar para um personagem aleatório
   const nextCharacter = () => {
-    characterIndex++;
-    setCurrentCharacter(characters[characterIndex]);
+    if(characterIndex == characters.length-1){
+      characterIndex = 0
+      setCurrentCharacter(characters[characterIndex]);
+    }
+    else{
+      characterIndex++;
+      setCurrentCharacter(characters[characterIndex]);
+    }
+    
   };
 
   const previousCharacter = () => {
-    characterIndex--;
-    setCurrentCharacter(characters[characterIndex]);
+    if(characterIndex > 0){
+      characterIndex--;
+      setCurrentCharacter(characters[characterIndex]);
+    }
+    else{
+      characterIndex = characters.length-1
+      setCurrentCharacter(characters[characterIndex]);
+    }
+    
   };
 
   return (
