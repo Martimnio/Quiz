@@ -62,19 +62,28 @@ const BibleCard = () => {
         </div>
       
       </motion.div>
-
-      <button
-        onClick={previousCharacter}
-        className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+      <div>
+        <button
+          onClick={previousCharacter}
+          className="mt-6 mr-1 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          Card Anterior
+        </button>
+        <button
+          onClick={nextCharacter}
+          className="mt-6 ml-1 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+        >
+          Próximo Card
+        </button>
+      </div>
+      <motion.a
+        href="../"
+        className="mt-6 text-blue-600 hover:underline"
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.2 }}
       >
-        Card Anterior
-      </button>
-      <button
-        onClick={nextCharacter}
-        className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-      >
-        Próximo Card
-      </button>
+        Voltar para o início
+      </motion.a>
     </div>
   );
 };
