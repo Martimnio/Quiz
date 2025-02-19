@@ -18,6 +18,12 @@ export default function Home() {
             <p>Desafie-se com os cards de personagens da Bíblia.</p>
           </div>
         </Link>
+        <Link href="/qualText" className="card">
+          <div className="p-6 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition">
+            <h2 className="text-2xl font-bold">Qual é o texto?</h2>
+            <p>Teste sua memória com os textos da Bíblia.</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
