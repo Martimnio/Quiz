@@ -11,9 +11,19 @@ export const texts = [
     correct: "João 3:16",
   },
   {
-    verse: "O Senhor é o meu pastor, nada me faltará.",
+    verse: "Jeová é o meu pastor, nada me faltará.",
     options: ["Provérbios 3:5", "Salmo 23:1", "Salmo 91:13", "Provérbios 5:23"],
     correct: "Salmo 23:1",
+  },
+   {
+    verse: "E estas boas novas do Reino serão pregadas em toda a terra habitada, em testemunho a todas as nações, e então virá o fim.",
+    options: ["Tiago 4:14", "Mateus 15:33", "Mateus 28:19", "Tiago 1:27"],
+    correct: "Mateus 24:14"
+  },
+  {
+    verse: "Portanto, vão e façam discípulos de pessoas de todas as nações, batizando-as+ em nome do Pai, e do Filho, e do espírito santo",
+    options: ["Mateus 28:19", "João 18:26", "Mateus 24:14", "Mateus 24:14"],
+    correct: "Mateus 28:19"
   },
   {
     verse: "Honre seu pai e sua mãe, para que você viva por muito tempo na terra que Jeová, seu Deus, lhe dá.",
@@ -46,9 +56,21 @@ export const texts = [
     correct: "Provérbios 22:6"
   },
   {
+    verse: "Que as pessoas saibam que tu, cujo nome é Jeová, somente tu és o Altíssimo sobre toda a terra.",
+    options: ["Salmo 1:8", "Provérbios 5:6", "Salmo 83:18", "Salmo 91:4"],
+    correct: "Salmo 83:18"
+  },
+  {
+    verse: "Vocês são as minhas testemunhas”, diz Jeová, Sim, meu servo a quem escolhi.",
+    options: ["Jeremias 9:7", "Isaías 41:10", "Salmo 3:13", "Isaías 43:10"],
+    correct: "Isaías 43:10"
+  },
+  {
     verse: "Eis que quão bom e quão agradável é irmãos morarem juntos em união!",
     options: ["Salmo 126:5", "Salmo 133:1", "Salmo 134:1", "Hebreus 10:25"],
     correct: "Salmo 133:1"
   }
+  
+
   ]
   
