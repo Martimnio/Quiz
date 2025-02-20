@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A]">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] relative pb-20"> 
       <h1 className="text-4xl font-bold mb-8 text-white font-sans">Jogos Bíblicos</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-4xl px-4">
         <Link href="/quiz" className="card transform transition-transform hover:scale-105">
@@ -24,11 +24,20 @@ export default function Home() {
             <p className="text-lg">Teste sua memória e decore os textos da Bíblia.</p>
           </div>
         </Link>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4">
-          <p className="text-white">®Pedro Soares - <a href="https://pesoares.com.br/">Clique aqui para meu site pessoal</a></p>
-        </div>
       </div>
+      <footer className="fixed bottom-0 left-0 w-full text-center text-white text-sm bg-[#0E4A8A] py-3">
+        <p>
+          ®Pedro Soares -{" "}
+          <a
+            href="https://pesoares.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-blue-200 transition-colors"
+          >
+            Clique aqui para meu site pessoal
+          </a>
+        </p>
+      </footer>
     </div>
-
   );
 }
