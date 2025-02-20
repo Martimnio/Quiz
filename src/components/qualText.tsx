@@ -1,6 +1,6 @@
 import { useState } from "react";
-import {texts} from "../app/texts"
-import { motion } from "framer-motion"; 
+import { texts } from "../app/texts";
+import { motion } from "framer-motion";
 
 const QualEOTEXTO = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +18,6 @@ const QualEOTEXTO = () => {
     }
   };
 
-  
   const nextQuestion = () => {
     setSelectedOption(null);
     setFeedback("");
@@ -32,47 +31,72 @@ const QualEOTEXTO = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
-      <h1 className="text-2xl text-black font-bold mb-6">Qual é o Texto?</h1>
-      <div className="bg-white shadow-lg rounded-lg p-6 w-96 text-center">
-        <p className="text-lg text-black font-semibold mb-4">{currentQuestion.verse}</p>
-        <div className="flex flex-col space-y-2">
+    <div className="flex flex-col items-center justify-center min-h-screen p-3 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
+      <motion.h1
+        className="text-4xl font-bold mb-8 font-sans"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        Qual é o Texto?
+      </motion.h1>
+      <motion.div
+        key={currentIndex}
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.9 }}
+        transition={{ duration: 0.3 }}
+        className="p-5 bg-white shadow-2xl rounded-xl w-96 text-center"
+      >
+        <p className="text-lg text-black font-semibold mb-6">{currentQuestion.verse}</p>
+        <div className="flex flex-col space-y-4">
           {currentQuestion.options.map((option, index) => (
-            <button
+            <motion.button
               key={index}
-              className={`px-4 text-black py-2 rounded-lg border transition ${
+              className={`px-6 py-3 rounded-lg border transition transform hover:scale-105 ${
                 selectedOption === option
                   ? option === currentQuestion.correct
                     ? "bg-green-500 text-white"
                     : "bg-red-500 text-white"
-                  : "bg-gray-200 hover:bg-gray-300"
+                  : "bg-gray-200 hover:bg-gray-300 text-black"
               }`}
               onClick={() => handleAnswer(option)}
+              whileTap={{ scale: 0.95 }}
             >
               {option}
-            </button>
+            </motion.button>
           ))}
         </div>
-        {feedback && <p className="mt-4 text-lg font-bold">{feedback}</p>}
-        <div className="flex">
-          <button
+        {feedback && (
+          <motion.p
+            className="mt-6 text-lg font-bold text-black"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+          >
+            {feedback}
+          </motion.p>
+        )}
+        <div className="flex space-x-6 mt-8">
+          <motion.button
             onClick={previousQuestion}
-            className="mt-6 mr-1 px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+            className="px-8 py-3 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
+            whileTap={{ scale: 0.95 }}
           >
             Texto anterior
-          </button>
-          <button
+          </motion.button>
+          <motion.button
             onClick={nextQuestion}
-            className="mt-6 ml-1 px-6 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+            className="px-5 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105"
+            whileTap={{ scale: 0.95 }}
           >
             Próximo texto
-          </button>
+          </motion.button>
         </div>
-        
-      </div>
+      </motion.div>
       <motion.a
         href="../"
-        className="mt-6 text-blue-600 hover:underline"
+        className="mt-8 text-white hover:underline"
         whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.2 }}
       >

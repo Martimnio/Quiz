@@ -34,9 +34,9 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100 text-black">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
       <motion.h1
-        className="text-2xl font-bold mb-4"
+        className="text-4xl font-bold mb-8 font-sans"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -47,13 +47,13 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
       {currentQuestion && (
         <motion.div
           key={currentQuestionIndex} // Para animação na troca de pergunta
-          className="mt-6 p-6 bg-white shadow-lg rounded-lg w-96 text-center text-black"
+          className="mt-6 p-8 bg-white shadow-2xl rounded-xl w-96 text-center text-black"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
           transition={{ duration: 0.3 }}
         >
-          <p className="text-xl font-semibold text-black">{currentQuestion.question}</p>
+          <p className="text-2xl font-bold mb-6">{currentQuestion.question}</p>
           {showAnswer ? (
             <motion.p
               className="mt-3 text-lg text-gray-700"
@@ -66,7 +66,7 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
           ) : (
             <motion.button
               onClick={() => setShowAnswer(true)}
-              className="mt-4 px-4 py-2 text-white bg-green-600 rounded-lg hover:bg-green-700 transition transform hover:scale-105"
+              className="mt-4 px-6 py-3 text-white bg-green-600 rounded-lg hover:bg-green-700 transition transform hover:scale-105"
               whileTap={{ scale: 0.95 }}
             >
               Mostrar Resposta
@@ -75,17 +75,17 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
         </motion.div>
       )}
 
-      <div className="mt-4 flex space-x-4">
+      <div className="mt-8 flex space-x-6">
         <motion.button
           onClick={previousQuestion}
-          className="px-6 py-3 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
+          className="px-8 py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
           Pergunta anterior
         </motion.button>
         <motion.button
           onClick={nextQuestion}
-          className="px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105"
+          className="px-8 py-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
           Próxima Pergunta
@@ -94,7 +94,7 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
 
       <motion.a
         href="../"
-        className="mt-6 text-blue-600 hover:underline"
+        className="mt-8 text-white hover:underline"
         whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.2 }}
       >
