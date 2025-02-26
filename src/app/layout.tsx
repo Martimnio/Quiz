@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jogos Bíblicos",
   description: "Jogos para aprender sobre a Bíblia",
+  icons: {
+    icon: "/vercel.svg", 
+  },
 };
 
 export default function RootLayout({

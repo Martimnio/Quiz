@@ -69,10 +69,10 @@ const BibleCard = () => {
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.9 }}
         transition={{ duration: 1 }}
-        className="p-5 bg-gray-100 shadow-2xl rounded-xl w-96 text-center border-4 border-blue-900"
+        className="p-5 bg-gray-100 shadow-2xl rounded-xl w-96 min-w-80 text-center border-4 border-blue-900"
       >
         <img
-          src={currentCharacter.image}
+          src={`/personagens/${currentCharacter.image}`}
           alt={currentCharacter.name}
           className="w-full h-52 object-cover rounded-lg mb-6 "
         />

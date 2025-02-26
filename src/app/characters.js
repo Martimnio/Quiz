@@ -1,7 +1,7 @@
 export const characters = [
   {
     "name": "Maria",
-    "image": "https://cms-imgp.jw-cdn.org/img/p/1102013264/univ/art/1102013264_univ_lsr_lg.jpg",
+    "image": "Mary.png",
     "hints": [
       "Uma profecia disse que uma longa espada me atravessaria.",
       "Meu esposo aceitou um grande desafio por causa de um sonho.",
@@ -16,7 +16,7 @@ export const characters = [
   },
   {
     name: "Pedro",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013267/univ/art/1102013267_univ_lsr_lg.jpg",
+    image: "Pedro.jpg",
     hints: [
       "Paguei um imposto com uma moeda tirada de um peixe que eu pesquei.",
       "Tive uma visão de um lençol cheio de animais, mudando meu entendimento sobre um assunto importante.",
@@ -32,7 +32,7 @@ export const characters = [
 
 {
     name: "José do Egito",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2015327/univ/art/2015327_univ_lsr_lg.jpg",
+    image: "Joseph.jpg",
     hints: [
       "Um dos meus nomes era Zafenate-Paneia.",
       "Sonhei que a Lua e o Sol se curvavam perante uma estrela.",
@@ -48,7 +48,7 @@ export const characters = [
 
 {
     name: "Miriã",
-    image: "https://cms-imgp.jw-cdn.org/img/p/501500100/univ/wpub/501500100_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Meu nome junto com os dos meus irmãos é mencionado no livro de Miqueias.",
       "Sou a primeira mulher chamada de profetisa na Bíblia.",
@@ -64,7 +64,7 @@ export const characters = [
 
   {
     "name": "Samuel",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwsDzdYtCjNgZP56863m1KS5F2UMi5_DGqaw&s",
+    "image": "Samuel.jpg",
     "hints": [
       "Minha mãe cantou um cântico que mais tarde se refletiria em outra história famosa.",
       "Meus dois filhos me trouxeram muita tristeza.",
@@ -79,7 +79,7 @@ export const characters = [
   },
   {
     "name": "Noemi",
-    "image": "https://cms-imgp.jw-cdn.org/img/p/1102013250/univ/art/1102013250_univ_cnt_3_xl.jpg",
+    "image": "",
     "hints": [
       "Meu nome significa algo, mas cheguei a rejeitá-lo por um tempo.",
       "Minha decisão impactou a linhagem do maior rei de Israel.",
@@ -94,7 +94,7 @@ export const characters = [
   },
   {
     "name": "Saul",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX00oxe3rAmPmDa1Fgnu6WiMOJZ2ZkRULs-w&s",
+    "image": "Saul.jpg",
     "hints": [
       "Uma vez, profetizei entre um grupo inesperado de pessoas.",
       "Comecei minha trajetória modesto, mas mudei com o tempo.",
@@ -109,7 +109,7 @@ export const characters = [
   },
   {
     "name": "Sansão",
-    "image": "https://cms-imgp.jw-cdn.org/img/p/1102016048/univ/art/1102016048_univ_lsr_lg.jpg",
+    "image": "Samson.jpg",
     "hints": [
       "Fui obrigado a seguir regras específicas desde antes do meu nascimento.",
       "Contei um enigma sobre algo doce vindo de algo forte.",
@@ -124,7 +124,7 @@ export const characters = [
   },
   {
     "name": "Ezequias",
-    "image": "https://cms-imgp.jw-cdn.org/img/p/502012425/univ/art/502012425_univ_lsr_md.jpg",
+    "image": "",
     "hints": [
       "Fui aconselhado pelo profeta Isaías.",
       "Mandei destruir a serpente de cobre que Moisés tinha feito.",
@@ -140,7 +140,7 @@ export const characters = [
   
   {
     name: "Moisés",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2013086/univ/art/2013086_univ_lsr_lg.jpg",
+    image: "https://i.pinimg.com/736x/41/7b/53/417b53f0d8a76b2cf5974970b56d5ad7.jpg",
     hints: [
       "Um estrangeiro me deu um novo lar e um novo nome de família",
       "Uma parte do meu corpo precisava ser sustentada por outros para garantir uma vitória",
@@ -155,7 +155,7 @@ export const characters = [
   },
   {
     name: "Davi",
-    image: "https://cms-imgp.jw-cdn.org/img/p/202022173/univ/art/202022173_univ_lsr_lg.jpg",
+    image: "David.jpg",
     hints: [
       "Usei um objeto estranho como prova para demonstrar minha lealdade.",
       "Meus aliados mais fiéis eram conhecidos por feitos incríveis em combate.",
@@ -170,7 +170,7 @@ export const characters = [
   },
   {
     name: "Lucas",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2014006/univ/art/2014006_univ_cnt_2_xl.jpg",
+    image: "",
     hints: [
       "Em meu evangelho registrei a genealogia de Jesus por meio de José.",
       "Apenas eu estava com Paulo em Roma quando ele estava prestes a receber sua sentença.",
@@ -185,7 +185,7 @@ export const characters = [
   },
   {
     name: "Jonas",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013259/univ/art/1102013259_univ_cnt_3_xl.jpg",
+    image: "Jonah.jpg",
     hints: [
       "Minha história foi mencionada por Jesus.",
       "Meu livro termina com uma pergunta feita por Deus, sem resposta registrada.",
@@ -200,7 +200,7 @@ export const characters = [
   },
   {
     name: "Paulo",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2018326/univ/art/2018326_univ_lsr_lg.jpg",
+    image: "Paul.jpg",
     hints: [
       "Eu tinha um problema nas vistas.",
       "Recebi uma visão de Cristo no caminho para Damasco.",
@@ -215,7 +215,7 @@ export const characters = [
   },
   {
     name: "Ester",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013262/univ/art/1102013262_univ_cnt_2_xl.jpg",
+    image: "Esther.jpg",
     hints: [
       "O livro que conta minha história não menciona diretamente o nome de Deus.",
       "O rei estendeu o cetro dourado para mim como sinal de favor.",
@@ -230,7 +230,7 @@ export const characters = [
   },
   {
     name: "Abraão",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2016122/univ/art/2016122_univ_lsr_lg.jpg",
+    image: "Adam.jpg",
     hints: [
       "Recebi a visita de três homens que anunciaram o nascimento de meu filho.",
       "Comprei a caverna de Macpela.",
@@ -245,7 +245,7 @@ export const characters = [
   },
   {
     name: "Abel",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013271/univ/art/1102013271_univ_cnt_2_xl.jpg",
+    image: "Adam.jpg",
     hints: [
       "Meu nome significa 'vapor' ou 'sopro'.",
       "Embora eu ainda esteja morto, ainda falo.",
@@ -260,7 +260,7 @@ export const characters = [
   },
   {
     name: "Salomão",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1101978118/univ/art/1101978118_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Minha mãe garantiu que eu subisse ao trono antes do meu meio-irmão Adonias.",
       "Minha frota de navios fazia comércio com Társis e trazia ouro, prata, marfim, macacos e pavões.",
@@ -275,7 +275,7 @@ export const characters = [
   },
   {
     name: "Neemias",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102016077/univ/art/1102016077_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Lutei contra o casamento com estrangeiros entre os israelitas.",
       "Meus inimigos eram Sambalá e Tobias.",
@@ -290,7 +290,7 @@ export const characters = [
   },
   {
     name: "Josias",
-    image: "https://cms-imgp.jw-cdn.org/img/p/502012435/univ/art/502012435_univ_lsr_md.jpg",
+    image: "Josias.jpg",
     hints: [
       "Fui morto em uma batalha contra o faraó Neco do Egito.",
       "Dei ordens para restaurar o templo.",
@@ -305,7 +305,7 @@ export const characters = [
   },
   {
     name: "Josué",
-    image: "https://cms-imgp.jw-cdn.org/img/p/502012394/univ/art/502012394_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Meu nome original era Oséias, mas um grande líder de uma nação o mudou.",
       "Ordenei que o povo marchasse ao redor das muralhas de Jericó por sete dias.",
@@ -321,7 +321,7 @@ export const characters = [
 
 {
     name: "Rute",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013250/univ/art/1102013250_univ_cnt_4_xl.jpg",
+    image: "Ruth.jpg",
     hints: [
       "Fui beneficiada pela lei do resgatador.",
       "Fui bisavó do rei Davi.",
@@ -337,7 +337,7 @@ export const characters = [
 
 {
     name: "Daniel",
-    image: "https://cms-imgp.jw-cdn.org/img/p/500100125/univ/art/500100125_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Minha sabedoria foi comparada à de um anjo pelo rei.",
       "Recebi visões proféticas sobre reinos futuros, incluindo um com dez chifres.",
@@ -352,7 +352,7 @@ export const characters = [
   },
   {
     name: "Ana",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102013252/univ/art/1102013252_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Meu cântico profético menciona um rei antes mesmo de Israel ter um.",
       "Eu e minha família fazíamos uma viagem anual a Silo.",
@@ -368,7 +368,7 @@ export const characters = [
 
 {
     name: "Gideão",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102016044/univ/art/1102016044_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Fiz um ídolo de ouro que se tornou um laço para meu povo.",
       "Construí um altar chamado 'Jeová-Shalom'.",
@@ -384,7 +384,7 @@ export const characters = [
 
 {
     name: "Timóteo",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2015809/univ/art/2015809_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Tive um problema de saúde que Paulo sugeriu tratar com um pouco de vinho.",
       "Meu nome significa 'aquele que honra a Deus'.",
@@ -400,7 +400,7 @@ export const characters = [
 
 {
     name: "Jeremias",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102016067/univ/art/1102016067_univ_lsr_lg.jpg",
+    image: "Jeremias.jpg",
     hints: [
       "Fui proibido por Deus de me casar ou ter filhos.",
       "Testemunhei a destruição do Templo de Salomão.",
@@ -415,7 +415,7 @@ export const characters = [
   },
   {
     name: "Enoque",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2017010/univ/art/2017010_univ_cnt_4_xl.jpg",
+    image: "",
     hints: [
       "Nasci na sétima geração da família de Adão.",
       "Meu nome aparece no livro de Judas, no contexto de uma profecia.",
@@ -431,7 +431,7 @@ export const characters = [
 
 {
     name: "Sara",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2017172/univ/art/2017172_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Fui sepultada em Macpela, em um campo comprado por meu marido.",
       "Recebi a visita de anjos que anunciaram algo impossível para mim.",
@@ -447,7 +447,7 @@ export const characters = [
 
 {
     name: "Jó",
-    image: "https://cms-imgp.jw-cdn.org/img/p/502019375/univ/wpub/502019375_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Meu livro contém longos discursos poéticos e diálogos profundos.",
       "Tive um bom amigo chamado Eliú.",
@@ -462,7 +462,7 @@ export const characters = [
   },
   {
     name: "Mefibosete",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2011412/univ/art/2011412_univ_cnt_2_xl.jpg",
+    image: "",
     hints: [
       "Meu nome significa 'exterminador da vergonha'.",
       "Morei em Lo-Debar antes de ser chamado pelo rei.",
@@ -478,7 +478,7 @@ export const characters = [
   
   {
     name: "João",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102016112/univ/art/1102016112_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Dentre meus amigos, fui o único que morreu de velhice e não por perseguição direta.",
       "Minha escrita usa muitos simbolismos e contrastes, como 'luz e trevas'.",
@@ -493,7 +493,7 @@ export const characters = [
   },
   {
     name: "Adão",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2023324/univ/art/2023324_univ_cnt_1_xl.jpg",
+    image: "",
     hints: [
       "Meu nome significa 'homem' ou 'terra' em hebraico.",
       "O solo foi amaldiçoado por minha causa.",
@@ -508,9 +508,8 @@ export const characters = [
   },
   {
     name: "Levi",
-    image: "https://wol.jw.org/pt/wol/mp/r5/lp-t/mwb21/2021/177",
-    hints: [
-      "Meu nome está ligado ao significado de 'união' ou 'apego'.",
+    image: "",
+    hints:[
       "Meus filhos são Coate, Merari e Gérson.",
       "Meus irmãos e eu tomamos uma atitude radical contra a cidade de Siquém.",
       "Sou um dos filhos de Jacó e Lea.",
@@ -523,7 +522,7 @@ export const characters = [
   },
     {
       name: "Natã",
-      image: "https://cms-imgp.jw-cdn.org/img/p/2017327/univ/art/2017327_univ_lsr_lg.jpg",
+      image: "",
       hints: [
         "Chamei Salomão de Jedidias, que significa “Amado de Jah”.",
         "Eu tive um papel fundamental na sucessão de Salomão ao trono.",
@@ -538,7 +537,7 @@ export const characters = [
     },
     {
       name: "Eliseu",
-      image: "https://cms-imgp.jw-cdn.org/img/p/202022402/univ/art/202022402_univ_lsr_lg.jpg",
+      image: "",
       hints: [
         "Após uma oração minha, o exército inimigo foi atingido com cegueira mental.",
         "Mesmo depois de morto, um milagre aconteceu com meu corpo.",
@@ -553,8 +552,8 @@ export const characters = [
     },
     {
       name: "Eúde",
-      image: "https://wol.jw.org/pt/wol/mp/r5/lp-t/mwb21/2021/1104",
-      hints: [
+      image:"",
+      hint:[
         "Fui um juiz de Israel, mas sou mencionado poucas vezes na Bíblia.",
         "Após cumprir minha missão, fugi silenciosamente pela varanda.",
         "Fui encarregado de entregar tributos ao rei de Moabe.",
@@ -569,7 +568,7 @@ export const characters = [
    
   {
     name: "Ezequiel",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2016208/univ/art/2016208_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Fui chamado para ser profeta enquanto estava no exílio.",
       "Minha esposa morreu e Deus me proibiu de lamentar por ela.",
@@ -584,7 +583,7 @@ export const characters = [
   },
   {
     name: "Mateus",
-    image: "https://cms-imgp.jw-cdn.org/img/p/1102014630/univ/art/1102014630_univ_cnt_2_xl.jpg",
+    image: "",
     hints: [
       "Fiz uma festa que incomodou meus inimigos, fazendo-os falar mal de mim e meus amigos.",
       "Meu pai se chama Alfeu.",
@@ -600,7 +599,7 @@ export const characters = [
   
   {
     name: "Marcos",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2008090/univ/art/2008090_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Minha mãe hospedava reuniões de cristãos em sua casa.",
       "Meu estilo de escrita é mais dinâmico.",
@@ -616,7 +615,7 @@ export const characters = [
   
   {
     name: "Judas Iscariotes",
-    image: "https://wol.jw.org/pt/wol/mp/r5/lp-t/w21/2021/499",
+    image: "",
     hints: [
       "Não gostei quando ungiram meu amigo com óleo perfumado.",
       "Eu era responsável pelo dinheiro do grupo dos discípulos.",
@@ -631,7 +630,7 @@ export const characters = [
   },
   {
     name: "Jesus",
-    image: "https://cms-imgp.jw-cdn.org/img/p/2014723/univ/art/2014723_univ_lsr_lg.jpg",
+    image: "",
     hints: [
       "Já fui chamado de Abadon na Bíblia.",
       "Citei um versículo do Salmo 22 enquanto estava em grande sofrimento.",
