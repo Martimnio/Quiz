@@ -16,7 +16,7 @@ export const texts = [
   },
   {
     verse: "Jeová é o meu pastor, nada me faltará.",
-    options: ["Provérbios 3:5", "Salmo 23:1", "Salmo 91:13", "Provérbios 5:23"],
+    options: ["Salmo 91:13", "Provérbios 5:23", "Provérbios 3:5", "Salmo 23:1" ],
     correct: "Salmo 23:1",
   },
   {
@@ -26,7 +26,7 @@ export const texts = [
   },
    {
     verse: "E estas boas novas do Reino serão pregadas em toda a terra habitada, em testemunho a todas as nações, e então virá o fim.",
-    options: ["Tiago 4:14", "Mateus 15:33", "Mateus 28:19", "Tiago 1:27"],
+    options: ["Tiago 4:14", "Mateus 15:33", "Mateus 28:19", "Mateus 24:14"],
     correct: "Mateus 24:14"
   },
   {
@@ -41,12 +41,12 @@ export const texts = [
   },
   {
     verse: "“Felizes os que têm consciência de sua necessidade espiritual, porque a eles pertence o Reino dos céus.",
-    options: ["Mateus 5:3", "Lucas 6:20", "Mateus 11:28", "Salmo 51:17"],
+    options: ["Lucas 6:20", "Mateus 11:28", "Salmo 51:17", "Mateus 5:3"],
     correct: "Mateus 5:3"
   },
   {
     verse: "Tua palavra é lâmpada para o meu pé, E luz para o meu caminho.",
-    options: ["Salmo 119:105", "Provérbios 4:18", "2 Pedro 1:19", "João 12:35"],
+    options: ["Provérbios 4:18", "Salmo 119:105",  "2 Pedro 1:19", "João 12:35"],
     correct: "Salmo 119:105"
   },
   {
@@ -56,7 +56,7 @@ export const texts = [
   },
   {
     verse: "A Rocha — perfeito é tudo o que ele faz, Pois todos os seus caminhos são justos. Deus de fidelidade, que nunca é injusto; Justo e reto é ele.",
-    options: ["Deuteronômio 32:4", "Salmo 18:30", "2 Samuel 22:31", "Isaías 45:19"],
+    options: ["Salmo 18:30", "2 Samuel 22:31", "Isaías 45:19", "Deuteronômio 32:4"],
     correct: "Deuteronômio 32:4"
   },
   {
@@ -76,27 +76,27 @@ export const texts = [
   },
   {
     verse: "O orgulho vem antes da queda, E o espírito arrogante antes do tropeço.",
-    options: ["Provérbios 16:18", "Provérbios 18:12", "Tiago 4:6", "1 Coríntios 10:12"],
+    options: ["Provérbios 18:12", "Tiago 4:6", "Provérbios 16:18", "1 Coríntios 10:12"],
     correct: "Provérbios 16:18"
   },
   {
     verse: "Jesus lhe disse: “Eu sou a ressurreição e a vida. Quem exercer fé em mim, ainda que morra, voltará a viver; e todo aquele que vive e exerce fé em mim não morrerá jamais. Você acredita nisso?”",
-    options: ["João 11:25", "João 14:6", "1 Coríntios 15:22", "Apocalipse 1:18"],
+    options: [ "João 14:6", "1 Coríntios 15:22", "Apocalipse 1:18", "João 11:25"],
     correct: "João 11:25"
   },
   {
     verse: "Não lhe ordenei que seja corajoso e forte? Não fique apavorado nem tenha medo, pois Jeová, seu Deus, estará com você aonde quer que você for.",
-    options: ["Josué 1:9", "Deuteronômio 31:6", "Isaías 41:10", "Salmo 27:1"],
+    options: [ "Deuteronômio 31:6", "Josué 1:9", "Isaías 41:10", "Salmo 27:1"],
     correct: "Josué 1:9"
   },
   {
     verse: "Continuem a suportar uns aos outros e a perdoar uns aos outros liberalmente, mesmo que alguém tenha razão para queixa contra outro. Assim como Jeová os perdoou liberalmente, vocês devem fazer o mesmo.",
-    options: ["Colossenses 3:13", "Efésios 4:32", "Mateus 6:14", "Lucas 17:4"],
+    options: [ "Efésios 4:32", "Mateus 6:14", "Lucas 17:4", "Colossenses 3:13"],
     correct: "Colossenses 3:13"
   },
   {
     verse: "Eduque a criança no caminho em que ela deve andar; Mesmo quando ela envelhecer, não se desviará dele.",
-    options: ["Provérbios 22:6", "Efésios 6:4", "Deuteronômio 6:7", "2 Timóteo 3:15"],
+    options: [ "Efésios 6:4", "Deuteronômio 6:7", "Provérbios 22:6", "2 Timóteo 3:15"],
     correct: "Provérbios 22:6"
   },
   {
@@ -121,27 +121,27 @@ export const texts = [
   },
   {
     verse: "“Nos dias desses reis, o Deus do céu estabelecerá um reino que jamais será destruído. E esse reino não passará para as mãos de nenhum outro povo. Vai esmigalhar e pôr um fim a todos esses reinos, e somente ele permanecerá para sempre.",
-    options: ["Daniel 2:44", "Apocalipse 11:15", "Isaías 9:7", "Mateus 6:10"],
+    options: [ "Apocalipse 11:15", "Isaías 9:7", "Mateus 6:10", "Daniel 2:44"],
     correct: "Daniel 2:44"
   },
   {
     verse: "Eu lhes disse essas coisas para que, por meio de mim, vocês tenham paz. No mundo vocês terão tribulação, mas coragem! Eu venci o mundo.",
-    options: ["João 14:27", "João 16:33", "Mateus 28:20", "Atos 10:38"],
+    options: ["João 14:27", "Mateus 28:20", "João 16:33", "Atos 10:38"],
     correct: "João 16:33"
   },
   {
     verse: "‘Ame a Jeová, seu Deus, de todo o seu coração, de toda a sua alma e de toda a sua mente.’",
-    options: ["Mateus 22:37", "Deuteronômio 6:5", "Marcos 12:30", "Lucas 10:27"],
+    options: [ "Deuteronômio 6:5","Mateus 22:37", "Marcos 12:30", "Lucas 10:27"],
     correct: "Mateus 22:37"
   },
   {
     verse: "Confie a Jeová tudo que você faz, E os seus planos serão bem-sucedidos.",
-    options: ["Provérbios 16:3", "Salmo 37:5", "Provérbios 3:6", "Jeremias 29:11"],
+    options: [ "Salmo 37:5", "Provérbios 3:6", "Jeremias 29:11", "Provérbios 16:3"],
     correct: "Provérbios 16:3"
   },
   {
     verse: "ao passo que lançam sobre ele toda a sua ansiedade, porque ele cuida de vocês.",
-    options: ["1 Pedro 5:7", "Filipenses 4:6", "Mateus 11:28", "Salmo 55:22"],
+    options: [ "Filipenses 4:6", "Mateus 11:28", "Salmo 55:22", "1 Pedro 5:7"],
     correct: "1 Pedro 5:7"
   },
   {
@@ -151,7 +151,7 @@ export const texts = [
   },
   {
     verse: "Porque a palavra de Deus é viva e exerce poder, e é mais afiada do que qualquer espada de dois gumes, e penetra a ponto de fazer divisão entre a alma e o espírito, e entre as juntas e a medula, e é capaz de discernir os pensamentos e as intenções do coração.",
-    options: ["Hebreus 4:12", "Efésios 6:17", "2 Timóteo 3:16", "Jeremias 23:29"],
+    options: [ "Efésios 6:17", "2 Timóteo 3:16","Hebreus 4:12", "Jeremias 23:29"],
     correct: "Hebreus 4:12"
   },
   {
@@ -181,7 +181,7 @@ export const texts = [
   },
   {
     verse: "Os justos possuirão a terra E viverão nela para sempre.",
-    options: ["Salmo 37:29", "Mateus 5:5", "Provérbios 2:21", "Apocalipse 21:7"],
+    options: [ "Mateus 5:5", "Provérbios 2:21", "Apocalipse 21:7", "Salmo 37:29"],
     correct: "Salmo 37:29"
   },
   {

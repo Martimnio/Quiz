@@ -18,15 +18,15 @@ export const characters = [
     name: "Pedro",
     image: "Pedro.jpg",
     hints: [
-      "Paguei um imposto com uma moeda tirada de um peixe que eu pesquei.",
-      "Tive uma visão de um lençol cheio de animais, mudando meu entendimento sobre um assunto importante.",
-      "Fui um dos primeiros discípulos chamados por Jesus.",
-      "Fui chamado de cinco maneiras diferentes na Bíblia entre elas estão: Simeão, Simão e Cefas.",
-      "Fui libertado da prisão por um anjo enquanto os irmãos oravam por mim.",
+      "Fiz uma promessa, porém não a cumpri.",
+      "Tive uma visão que mudou minha vida.",
+      "Paguei um imposto com uma moeda que ganhei por milagre.",
       "Fui repreendido publicamente por um amigo meu.",
-      "Cortei a orelha de um soldado no Getsêmani.",
-      "Andei sobre as águas, mas afundei quando duvidei.",
-      "Neguei Jesus três vezes antes do galo cantar.",
+      "Fui libertado da prisão por um anjo enquanto os irmãos oravam por mim.",
+      "Milagrosamente minha sombra curava pessoas.",
+      "Neguei a Jesus três vezes.",
+      "Cortei a orelha de um soldado.",
+      "Andei sobre as águas com Jesus.",
     ],
   },
 
@@ -48,7 +48,7 @@ export const characters = [
 
 {
     name: "Miriã",
-    image: "",
+    image: "Miriam.jpg",
     hints: [
       "Meu nome junto com os dos meus irmãos é mencionado no livro de Miqueias.",
       "Sou a primeira mulher chamada de profetisa na Bíblia.",
@@ -79,7 +79,7 @@ export const characters = [
   },
   {
     "name": "Noemi",
-    "image": "",
+    "image": "Noemi.jpg",
     "hints": [
       "Meu nome significa algo, mas cheguei a rejeitá-lo por um tempo.",
       "Minha decisão impactou a linhagem do maior rei de Israel.",
@@ -95,16 +95,17 @@ export const characters = [
   {
     "name": "Saul",
     "image": "Saul.jpg",
+    "author": "Kauã Bernardo",
     "hints": [
-      "Uma vez, profetizei entre um grupo inesperado de pessoas.",
-      "Comecei minha trajetória modesto, mas mudei com o tempo.",
-      "Fiz algo que não me cabia e isso me custou muito caro.",
-      "Não obedeci completamente uma ordem e fui repreendido publicamente.",
-      "A música me acalmava.",
-      "Eu poderia ter sido morto em uma situação bem constrangedora.",
-      "Pelo ciúme, persegui alguém que não era meu inimigo.",
-      "Morri em combate junto com um dos meus filhos.",
-      "Fui o primeiro rei de Israel."
+      "Eu fiz uma coisa que embora fosse para Jeová não cabia a mim fazer.",
+      "Meu tio se chamava Abner.",
+      "Minha esposa se chamava Ainoã",
+      "No principio eu era modesto.",
+      "No fim me tornei invejoso",
+      "Procurei uma vidente ",
+      "Tentei cravar um homem na parede",
+      "Meu filho se tornou o melhor amigo do meu inimigo.",
+      "Eu ouvia música para acalmar pensamentos ruins."
     ]
   },
   {
@@ -170,7 +171,7 @@ export const characters = [
   },
   {
     name: "Lucas",
-    image: "",
+    image: "Luke.jpg",
     hints: [
       "Em meu evangelho registrei a genealogia de Jesus por meio de José.",
       "Apenas eu estava com Paulo em Roma quando ele estava prestes a receber sua sentença.",
@@ -230,7 +231,7 @@ export const characters = [
   },
   {
     name: "Abraão",
-    image: "Adam.jpg",
+    image: "Abraão.jpg",
     hints: [
       "Recebi a visita de três homens que anunciaram o nascimento de meu filho.",
       "Comprei a caverna de Macpela.",
@@ -260,7 +261,7 @@ export const characters = [
   },
   {
     name: "Salomão",
-    image: "",
+    image: "Salomão.jpg",
     hints: [
       "Minha mãe garantiu que eu subisse ao trono antes do meu meio-irmão Adonias.",
       "Minha frota de navios fazia comércio com Társis e trazia ouro, prata, marfim, macacos e pavões.",
@@ -275,7 +276,7 @@ export const characters = [
   },
   {
     name: "Neemias",
-    image: "",
+    image: "Neemiah.jpg",
     hints: [
       "Lutei contra o casamento com estrangeiros entre os israelitas.",
       "Meus inimigos eram Sambalá e Tobias.",
@@ -337,7 +338,7 @@ export const characters = [
 
 {
     name: "Daniel",
-    image: "",
+    image: "Daniel.jpg",
     hints: [
       "Minha sabedoria foi comparada à de um anjo pelo rei.",
       "Recebi visões proféticas sobre reinos futuros, incluindo um com dez chifres.",
@@ -508,7 +509,7 @@ export const characters = [
   },
   {
     name: "Levi",
-    image: "",
+    image: "Levi.jpg",
     hints:[
       "Meus filhos são Coate, Merari e Gérson.",
       "Meus irmãos e eu tomamos uma atitude radical contra a cidade de Siquém.",
@@ -553,7 +554,7 @@ export const characters = [
     {
       name: "Eúde",
       image:"",
-      hint:[
+      hints:[
         "Fui um juiz de Israel, mas sou mencionado poucas vezes na Bíblia.",
         "Após cumprir minha missão, fugi silenciosamente pela varanda.",
         "Fui encarregado de entregar tributos ao rei de Moabe.",
@@ -568,7 +569,7 @@ export const characters = [
    
   {
     name: "Ezequiel",
-    image: "",
+    image: "Ezekiel.jpg",
     hints: [
       "Fui chamado para ser profeta enquanto estava no exílio.",
       "Minha esposa morreu e Deus me proibiu de lamentar por ela.",
@@ -583,7 +584,7 @@ export const characters = [
   },
   {
     name: "Mateus",
-    image: "",
+    image: "Matthew.jpg",
     hints: [
       "Fiz uma festa que incomodou meus inimigos, fazendo-os falar mal de mim e meus amigos.",
       "Meu pai se chama Alfeu.",

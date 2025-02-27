@@ -69,47 +69,52 @@ const BibleCard = () => {
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.9 }}
         transition={{ duration: 1 }}
-        className="p-5 bg-gray-100 shadow-2xl rounded-xl w-96 min-w-80 text-center border-4 border-blue-900"
+        className="p-4 sm:p-6 bg-gray-100 shadow-2xl rounded-xl w-full max-w-[350px] sm:max-w-[400px] text-center border-4 border-blue-900"
       >
         <img
           src={`/personagens/${currentCharacter.image}`}
           alt={currentCharacter.name}
-          className="w-full h-52 object-cover rounded-lg mb-6 "
+          className="w-full h-40 sm:h-52 object-cover rounded-lg mb-4"
         />
-
+  
         <div className="text-gray-700 flex flex-col">
-        <h2 className="text-3xl text-left font-bold mb-6 text-black">{currentCharacter.name}</h2>
+          <h2 className="text-2xl sm:text-3xl text-left font-bold mb-4 text-black">{currentCharacter.name}</h2>
           {currentCharacter.hints.slice(0).map((hint, index) => (
-            <p key={index} className="mb-3 text-left">
-              <strong className={`mr-1 ${index < 3 ? "text-black" : index >= 3 && index < 6 ? "text-orange-600" : "text-green-600"}`}>
+            <p key={index} className="mb-2 text-left text-sm sm:text-base">
+              <strong className={`mr-1 ${index < 3 ? "text-black" : index < 6 ? "text-orange-600" : "text-green-600"}`}>
                 Dica {index + 1}: 
               </strong> 
               {hint}
             </p>
           ))}
+        {currentCharacter.author && (
+          <p className="text-sm text-gray-600 mb-4 text-left">
+            <strong>Autor:</strong> {currentCharacter.author}
+          </p>
+        )}
         </div>
       </motion.div>
-
-      <div className="mt-8 flex space-x-6">
+  
+      <div className="mt-6 flex space-x-4">
         <motion.button
           onClick={previousCharacter}
-          className="px-8 py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
+          className="px-6 py-3 sm:px-8 sm:py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105 text-sm sm:text-base"
           whileTap={{ scale: 0.95 }}
         >
           Card Anterior
         </motion.button>
         <motion.button
           onClick={nextCharacter}
-          className="px-8 py-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105"
+          className="px-6 py-3 sm:px-8 sm:py-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105 text-sm sm:text-base"
           whileTap={{ scale: 0.95 }}
         >
           Próximo Card
         </motion.button>
       </div>
-
+  
       <motion.a
         href="../"
-        className="mt-8 text-white hover:underline"
+        className="mt-6 text-white hover:underline text-sm sm:text-base"
         whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.2 }}
       >
@@ -117,6 +122,7 @@ const BibleCard = () => {
       </motion.a>
     </div>
   );
+  
 };
 
 export default BibleCard;
