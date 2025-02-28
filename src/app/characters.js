@@ -125,7 +125,7 @@ export const characters = [
   },
   {
     "name": "Ezequias",
-    "image": "",
+    "image": "Hezekiah.jpg",
     "hints": [
       "Fui aconselhado pelo profeta Isaías.",
       "Mandei destruir a serpente de cobre que Moisés tinha feito.",
@@ -141,7 +141,7 @@ export const characters = [
   
   {
     name: "Moisés",
-    image: "https://i.pinimg.com/736x/41/7b/53/417b53f0d8a76b2cf5974970b56d5ad7.jpg",
+    image: "Moses.jpg",
     hints: [
       "Um estrangeiro me deu um novo lar e um novo nome de família",
       "Uma parte do meu corpo precisava ser sustentada por outros para garantir uma vitória",
@@ -306,7 +306,7 @@ export const characters = [
   },
   {
     name: "Josué",
-    image: "",
+    image: "Joshua.jpg",
     hints: [
       "Meu nome original era Oséias, mas um grande líder de uma nação o mudou.",
       "Ordenei que o povo marchasse ao redor das muralhas de Jericó por sete dias.",
@@ -353,7 +353,7 @@ export const characters = [
   },
   {
     name: "Ana",
-    image: "",
+    image: "Hannah.jpg",
     hints: [
       "Meu cântico profético menciona um rei antes mesmo de Israel ter um.",
       "Eu e minha família fazíamos uma viagem anual a Silo.",
@@ -369,7 +369,7 @@ export const characters = [
 
 {
     name: "Gideão",
-    image: "",
+    image: "Gideon.png",
     hints: [
       "Fiz um ídolo de ouro que se tornou um laço para meu povo.",
       "Construí um altar chamado 'Jeová-Shalom'.",
@@ -385,7 +385,7 @@ export const characters = [
 
 {
     name: "Timóteo",
-    image: "",
+    image: "Timoteo.jpg",
     hints: [
       "Tive um problema de saúde que Paulo sugeriu tratar com um pouco de vinho.",
       "Meu nome significa 'aquele que honra a Deus'.",
@@ -416,7 +416,7 @@ export const characters = [
   },
   {
     name: "Enoque",
-    image: "",
+    image: "Enoch.png",
     hints: [
       "Nasci na sétima geração da família de Adão.",
       "Meu nome aparece no livro de Judas, no contexto de uma profecia.",
@@ -432,7 +432,7 @@ export const characters = [
 
 {
     name: "Sara",
-    image: "",
+    image: "Sarah.jpg",
     hints: [
       "Fui sepultada em Macpela, em um campo comprado por meu marido.",
       "Recebi a visita de anjos que anunciaram algo impossível para mim.",
@@ -448,7 +448,7 @@ export const characters = [
 
 {
     name: "Jó",
-    image: "",
+    image: "Job.png",
     hints: [
       "Meu livro contém longos discursos poéticos e diálogos profundos.",
       "Tive um bom amigo chamado Eliú.",
@@ -463,7 +463,7 @@ export const characters = [
   },
   {
     name: "Mefibosete",
-    image: "",
+    image: "Mefibosete.jpg",
     hints: [
       "Meu nome significa 'exterminador da vergonha'.",
       "Morei em Lo-Debar antes de ser chamado pelo rei.",
@@ -479,7 +479,7 @@ export const characters = [
   
   {
     name: "João",
-    image: "",
+    image: "John.jpg",
     hints: [
       "Dentre meus amigos, fui o único que morreu de velhice e não por perseguição direta.",
       "Minha escrita usa muitos simbolismos e contrastes, como 'luz e trevas'.",
@@ -490,21 +490,6 @@ export const characters = [
       "Fui o autor de três cartas curtas na Bíblia.",
       "Sou chamado de 'o discípulo a quem Jesus amava'.",
       "Escrevi um dos quatro evangelhos.",
-    ],
-  },
-  {
-    name: "Adão",
-    image: "",
-    hints: [
-      "Meu nome significa 'homem' ou 'terra' em hebraico.",
-      "O solo foi amaldiçoado por minha causa.",
-      "Fui expulso do lugar onde vivia por desobedecer a Deus.",
-      "Minha esposa foi feita a partir de uma parte do meu corpo.",
-      "Um anjo com uma espada de fogo me impediu de voltar para o meu antigo lar.",
-      "Não tive mãe.",
-      "Fui formado a partir do pó da terra.",
-      "Jeová me designou para dar nome aos animais.",
-      "Fui o primeiro homem da história.",
     ],
   },
   {
@@ -523,7 +508,7 @@ export const characters = [
   },
     {
       name: "Natã",
-      image: "",
+      image: "Nathan.jpg",
       hints: [
         "Chamei Salomão de Jedidias, que significa “Amado de Jah”.",
         "Eu tive um papel fundamental na sucessão de Salomão ao trono.",
@@ -538,7 +523,7 @@ export const characters = [
     },
     {
       name: "Eliseu",
-      image: "",
+      image: "Elijah.jpg",
       hints: [
         "Após uma oração minha, o exército inimigo foi atingido com cegueira mental.",
         "Mesmo depois de morto, um milagre aconteceu com meu corpo.",
@@ -553,7 +538,7 @@ export const characters = [
     },
     {
       name: "Eúde",
-      image:"",
+      image:"Eud.jpg",
       hints:[
         "Fui um juiz de Israel, mas sou mencionado poucas vezes na Bíblia.",
         "Após cumprir minha missão, fugi silenciosamente pela varanda.",
@@ -600,7 +585,7 @@ export const characters = [
   
   {
     name: "Marcos",
-    image: "",
+    image: "Mark.jpg",
     hints: [
       "Minha mãe hospedava reuniões de cristãos em sua casa.",
       "Meu estilo de escrita é mais dinâmico.",
@@ -616,7 +601,7 @@ export const characters = [
   
   {
     name: "Judas Iscariotes",
-    image: "",
+    image: "JIscariot.jpg",
     hints: [
       "Não gostei quando ungiram meu amigo com óleo perfumado.",
       "Eu era responsável pelo dinheiro do grupo dos discípulos.",
@@ -628,22 +613,6 @@ export const characters = [
       "Aceitei 30 moedas de prata para trair Jesus.",
       "Sou o discípulo que traiu Jesus com um beijo.",
     ],
-  },
-  {
-    name: "Jesus",
-    image: "",
-    hints: [
-      "Já fui chamado de Abadon na Bíblia.",
-      "Citei um versículo do Salmo 22 enquanto estava em grande sofrimento.",
-      "Quando morri, havia comigo uma placa com inscrições em três idiomas.",
-      "Chorei sobre uma cidade específica antes de minha morte.",
-      "Ajudei uma pessoa sem sequer vê-a pessoalmente.",
-      "Meu nascimento deixou um rei furioso.",
-      "Uma profecia sobre mim menciona que fui 'chamado do Egito'.",
-      "Sou muito parecido com meu pai.",
-      "Sou o filho primogênito de Jeová.",
-    ],
-  },
-  
+  }
 
 ];
