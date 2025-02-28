@@ -33,7 +33,7 @@ const QualEOTEXTO = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-3 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
       <motion.h1
-        className="text-3xl sm:text-4xl font-bold mb-8 font-sans text-center"
+        className="text-3xl sm:text-4xl font-bold w-full max-w-[350px] sm:max-w-[400px] mb-8 font-sans text-center"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}

@@ -31,7 +31,7 @@ const BibleCard = () => {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
         <motion.div
-          className="p-8 bg-white shadow-2xl rounded-xl w-96 text-center border-4 border-blue-500"
+          className="p-4 sm:p-6 bg-gray-100 shadow-2xl rounded-xl w-full max-w-[350px] sm:max-w-[400px] text-center border-4 border-blue-900"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}

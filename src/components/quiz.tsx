@@ -46,8 +46,8 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
 
       {currentQuestion && (
         <motion.div
-          key={currentQuestionIndex} // Para animação na troca de pergunta
-          className="mt-6 p-8 bg-white shadow-2xl rounded-xl w-96 text-center text-black"
+          key={currentQuestionIndex} 
+          className="mt-6 p-8 bg-white shadow-2xl rounded-xl w-full max-w-[350px] sm:max-w-[400px] text-center text-black"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.95 }}
