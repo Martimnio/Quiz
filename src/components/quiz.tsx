@@ -81,7 +81,7 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
         </motion.div>
       )}
 
-      <div className="mt-8 flex space-x-6">
+      <div className="mt-8 flex space-x-3">
         <motion.button
           onClick={previousQuestion}
           className="px-8 py-2 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
