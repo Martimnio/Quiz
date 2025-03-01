@@ -1,5 +1,6 @@
 "use client"
-import Link from "next/link"; // Para Next.js (Se for Vite, use <a> com href direto)
+import Link from "next/link"; 
+import { motion } from "framer-motion"; 
 
 export default function Home() {
   return (
@@ -25,6 +26,14 @@ export default function Home() {
           </div>
         </Link>
       </div>
+      <motion.a
+        href="../"
+        className="mt-6 text-white hover:underline text-sm sm:text-base"
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.2 }}
+      >
+        Voltar para o início
+      </motion.a>
     </div>
   );
 }

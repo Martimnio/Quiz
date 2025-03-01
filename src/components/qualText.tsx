@@ -30,6 +30,12 @@ const QualEOTEXTO = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + texts.length) % texts.length);
   };
 
+  const randomQuestion = () =>{
+    setSelectedOption(null);
+    setFeedback("");
+    setCurrentIndex((prevIndex) => (prevIndex + Math.floor(Math.random() * texts.length-1) + texts.length) % texts.length);
+  }
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-3 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
       <motion.h1
@@ -83,20 +89,27 @@ const QualEOTEXTO = () => {
           </motion.p>
         )}
   
-        <div className="flex space-x-4 mt-6">
+        <div className="flex flex-row space-x-4 mt-6 items-center justify-center">
           <motion.button
             onClick={previousQuestion}
-            className="px-5 py-2 sm:px-8 sm:py-3 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105 text-sm sm:text-base"
+            className="px-5 py-2 sm:px-3 sm:py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105 text-sm sm:text-base"
             whileTap={{ scale: 0.95 }}
           >
-            Texto anterior
+            Anterior
+          </motion.button>
+          <motion.button
+            onClick={randomQuestion}
+            className="px-5 py-2 sm:px-3 sm:py-3 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition transform hover:scale-105 text-sm sm:text-base"
+            whileTap={{ scale: 0.95 }}
+          >
+            Aleatório
           </motion.button>
           <motion.button
             onClick={nextQuestion}
-            className="px-5 py-2 sm:px-8 sm:py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105 text-sm sm:text-base"
+            className="px-5 py-2 sm:px-3 sm:py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105 text-sm sm:text-base"
             whileTap={{ scale: 0.95 }}
           >
-            Próximo texto
+            Próximo
           </motion.button>
         </div>
       </motion.div>

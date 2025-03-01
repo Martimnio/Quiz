@@ -33,6 +33,12 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
     );
   };
 
+  const randomQuestion = () => {
+    const indexQ = Math.floor(Math.random() * questions[difficulty].length-1);
+    setCurrentQuestionIndex((indexQ)
+    );
+  };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
       <motion.h1
@@ -84,8 +90,15 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
           Pergunta anterior
         </motion.button>
         <motion.button
+          onClick={randomQuestion}
+          className="px-8 py-4 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition transform hover:scale-105"
+          whileTap={{ scale: 0.95 }}
+        >
+          Aleatório
+        </motion.button>
+        <motion.button
           onClick={nextQuestion}
-          className="px-8 py-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105"
+          className="px-8 py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
           Próxima Pergunta

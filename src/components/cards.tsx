@@ -27,6 +27,12 @@ const BibleCard = () => {
     }
   };
 
+  const randomCharacter = () =>{
+    characterIndex = Math.floor(Math.random() * characters.length-1)
+    console.log(characterIndex)
+    setCurrentCharacter(characters[characterIndex])
+  };
+
   if (showInstructions) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-br from-[#106EBE] to-[#0E4A8A] text-white">
@@ -50,7 +56,7 @@ const BibleCard = () => {
             <br></br>Aproveite!
           </p>
           <motion.button
-            onClick={() => setShowInstructions(false)} // Esconde as instruções e inicia o jogo
+            onClick={() => setShowInstructions(false)} 
             className="px-8 py-3 text-white bg-green-600 rounded-lg hover:bg-green-700 transition transform hover:scale-105"
             whileTap={{ scale: 0.95 }}
           >
@@ -103,6 +109,14 @@ const BibleCard = () => {
         >
           Card Anterior
         </motion.button>
+        <motion.button
+          onClick={randomCharacter}
+          className="px-6 py-3 sm:px-8 sm:py-4 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition transform hover:scale-105 text-sm sm:text-base"
+          whileTap={{ scale: 0.95 }}
+        >
+          Card Aleatório 
+        </motion.button>
+
         <motion.button
           onClick={nextCharacter}
           className="px-6 py-3 sm:px-8 sm:py-4 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition transform hover:scale-105 text-sm sm:text-base"
