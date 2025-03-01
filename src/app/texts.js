@@ -140,9 +140,14 @@ export const texts = [
     correct: "Provérbios 16:3"
   },
   {
-    verse: "ao passo que lançam sobre ele toda a sua ansiedade, porque ele cuida de vocês.",
+    verse: "Ao passo que lançam sobre ele toda a sua ansiedade, porque ele cuida de vocês.",
     options: [ "Filipenses 4:6", "Mateus 11:28", "Salmo 55:22", "1 Pedro 5:7"],
     correct: "1 Pedro 5:7"
+  },
+  {
+    verse: "Para todas as coisas tenho forças graças àquele que me dá poder.",
+    options: [ "Romanos 8:38", "Efésios 1:3", "Filipenses 4:13", "Salmo 1:1"],
+    correct: "Filipenses 4:13"
   },
   {
     verse: "Persistam, então, em buscar primeiro o Reino e a justiça de Deus, e todas essas outras coisas lhes serão acrescentadas.",

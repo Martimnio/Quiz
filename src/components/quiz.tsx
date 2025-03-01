@@ -84,24 +84,24 @@ const Quiz: React.FC<QuizProps> = ({ difficulty }) => {
       <div className="mt-8 flex space-x-6">
         <motion.button
           onClick={previousQuestion}
-          className="px-8 py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
+          className="px-8 py-2 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
-          Pergunta anterior
+          Anterior
         </motion.button>
         <motion.button
           onClick={randomQuestion}
-          className="px-8 py-4 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition transform hover:scale-105"
+          className="px-6 py-2 text-white bg-yellow-600 rounded-lg hover:bg-yellow-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
           Aleatório
         </motion.button>
         <motion.button
           onClick={nextQuestion}
-          className="px-8 py-4 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
+          className="px-6 py-2 text-white bg-orange-600 rounded-lg hover:bg-orange-700 transition transform hover:scale-105"
           whileTap={{ scale: 0.95 }}
         >
-          Próxima Pergunta
+          Próxima
         </motion.button>
       </div>
 
