@@ -110,17 +110,17 @@ export const characters = [
   },
   {
     "name": "Sansão",
-    "image": "Samson.jpg",
+    "image": "Samson.jpeg",
     "hints": [
-      "Fui obrigado a seguir regras específicas desde antes do meu nascimento.",
-      "Contei um enigma sobre algo doce vindo de algo forte.",
-      "Capturei 300 raposas e fiz um incêndio em um campo com elas.",
-      "Fui traído por alguém que dizia me amar.",
-      "Fui cegado pelos meus inimigos.",
-      "Matei 1000 homens com uma arma nada convencional.",
-      "Derrotei um grande número de inimigos em um ato final.",
-      "Minha força não vinha de mim, mas de um voto especial.",
-      "Meu nome é lembrado entre os juízes de Israel."
+      "Morri junto com 3 mil pessoas.",
+      "Meu pai tentou oferecer uma refeição ao anjo.",
+      "Um anjo anunciou meu nascimento.",
+      "Tirei mel da carcaça de um leão..",
+      "Matei um leão com minhas próprias mãos.",
+      "Fui enganado por 2 mulheres.",
+      "Fui cegado por meus inimigos.",
+      "Cortaram meu cabelo enquanto eu dormia.",
+      "Matei mil homens com uma queixada de jumento."
     ]
   },
   {
@@ -556,11 +556,11 @@ export const characters = [
     name: "Ezequiel",
     image: "Ezekiel.jpg",
     hints: [
-      "Fui chamado para ser profeta enquanto estava no exílio.",
+      "Tive que comer algo nojento.",
       "Minha esposa morreu e Deus me proibiu de lamentar por ela.",
       "Deus me ordenou que ficasse mudo por um período de tempo.",
       "Um anjo de cobre me mostrou um lugar impresisonante.",
-      "Tive uma visão impressionante perto de um rio.",
+      "Raspei minha cabeça.",
       "Meu livro menciona uma nova estrutura do templo.",
       "Vi um vale cheio de ossos secos ganhando vida.",
       "Vi anjos com quatro faces.",
